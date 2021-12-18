@@ -8,7 +8,7 @@ spec:
   selector: 
     component: ihapp
   
-  type: LoadBalancer
+  type: NodePort
   ports:
    - port: 5000
      targetPort: 8080
