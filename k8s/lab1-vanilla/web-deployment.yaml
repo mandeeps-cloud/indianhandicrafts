@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: ihapp
-          image: sendtoashish123/ihapp
+          image: cloudzune/indianhandicrafts
           ports:
             - containerPort: 8080
           env:
